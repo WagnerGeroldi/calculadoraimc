@@ -1,0 +1,109 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(27, 102, 12);
+}
+
+header {
+    height         : 10vh;
+    background     : rgb(16, 65, 7);
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    font-size      : 2rem;
+    color          : white;
+}
+
+#card {
+    background    : white;
+    padding-bottom: 10px;
+    width         : min(700px, 90%);
+    height        : max-content;
+    margin        : auto;
+    margin-top    : 5vh;
+    border-radius : 10px;
+    display       : flex;
+    flex-direction: column;
+}
+
+span {
+    background   : rgb(16, 65, 7);
+    color        : white;
+    padding      : 10px;
+    text-align   : center;
+    font-size    : 1.3rem;
+    margin-bottom: 10px;
+}
+
+.form {
+    display              : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding              : 10px;
+    font-weight          : bold;
+}
+
+input {
+    border       : none;
+    border-bottom: 2px solid rgb(16, 65, 7);
+    outline-style: none;
+}
+
+.btn {
+    margin    : 10px 0 0 20px;
+    padding   : 10px;
+    background: rgb(27, 102, 12);
+
+}
+
+.result-total {
+    display: grid;
+
+}
+
+#result {
+    display        : flex;
+    justify-content: center;
+    margin-top     : 10px;
+
+}
+
+#dicas {
+    text-align : center;
+    padding    : 10px;
+    font-weight: 700;
+}
+
+.result-info {
+    margin-bottom: 15px;
+    text-align   : center;
+    font-weight  : bold;
+
+}
+
+table {
+
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 0 5px;
+    border : 1px solid black;
+
+}
+
+.select {
+    background: rgb(144, 144, 207);
+}
+
+@media(max-width: 700px) {
+
+    .form {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
