@@ -22,7 +22,7 @@ header {
 #card {
     background    : white;
     padding-bottom: 10px;
-    width         : 50vw;
+    width         : min(500px, 95vw);
     height        : max-content;
     margin        : auto;
     margin-top    : 5vh;
@@ -98,16 +98,4 @@ table td {
 
 .select {
     background: rgb(144, 144, 207);
-}
-
-@media(max-width: 700px) {
-
-    #card {
-        width: 95%;
-    }
-
-    .form {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 }
