@@ -2,7 +2,7 @@
 
 Desenvolvida com HTML, CSS e JavaScript!
 
-###Funcionalidades
+### Funcionalidades
 
 * Verificação do Índice IMC
 * Exibição do resultado com tabela demonstrativa
