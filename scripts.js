@@ -99,15 +99,10 @@ function calcularImc() {
         let select = document.querySelector('.obesidade-tree')
         select.classList.add('select')
         dicas.innerHTML = `Você está com Grau III de obesidade, procure ajuda profissional urgente, sua saúde agradece.`;
+    }else {
+        alert('Você não pode deixar valores em branco, por favor, complete todos os campos!')
+        window.location.reload()
     }
-
-    function verificationEmptyInput() {
-        if(peso || altura === '') {
-            alert('Você não pode deixar valores em branco, por favor, complete todos os campos!')
-            window.location.reload()
-        }
-    }
-    verificationEmptyInput()
 
 }
 
