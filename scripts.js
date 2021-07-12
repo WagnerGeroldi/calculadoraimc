@@ -1,10 +1,14 @@
+
+
 function calcularImc() {
     event.preventDefault();
+
     let peso = document.querySelector(".peso").value;
     let altura = document.querySelector(".altura").value;
     let resultado = parseFloat(peso) / parseFloat(altura) ** 2;
     const result = document.querySelector('#result');
     const dicas = document.querySelector('#dicas');
+
 
     result.innerHTML = `
     <div class="result-total">
@@ -96,4 +100,14 @@ function calcularImc() {
         select.classList.add('select')
         dicas.innerHTML = `Você está com Grau III de obesidade, procure ajuda profissional urgente, sua saúde agradece.`;
     }
+
+    function verificationEmptyInput() {
+        if(peso || altura === '') {
+            alert('Você não pode deixar valores em branco, por favor, complete todos os campos!')
+            window.location.reload()
+        }
+    }
+    verificationEmptyInput()
+
 }
+

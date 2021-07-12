@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/fcca1c8479.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+        </script>
     <title>Calculadora de IMC</title>
 </head>
 
@@ -23,7 +25,7 @@
             </div>
             <div class="form">
                 <label for="">Informe sua altura</label>
-                <input type="number" class="altura" placeholder="Exemplo: 1.75">
+                <input type="number" class="altura" id="altura" placeholder="Exemplo: 1.75">
             </div>
             <button onclick="calcularImc()" class="btn">
                 Clique para calcular
@@ -36,10 +38,7 @@
 
         </div>
     </div>
-    <!--Add Jquery-->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
-        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
-        </script>
+    
     <script src="scripts.js"></script>
 </body>
 
