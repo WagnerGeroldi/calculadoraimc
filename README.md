@@ -2,6 +2,15 @@
 
 Desenvolvida com HTML, CSS e JavaScript!
 
+> https://wagnergeroldi.github.io/calculadoraimc/ < acesse aqui
+
+### Funcionalidades
+
+* Verificação do Índice IMC
+* Exibição do resultado com tabela demonstrativa
+* Dica de saúde relacionado ao indice apresentado
+
+
 ### Telas do App
 
 ### Versão desktop
@@ -20,9 +29,3 @@ Desenvolvida com HTML, CSS e JavaScript!
 
 ![em caso de valores vazios](https://user-images.githubusercontent.com/74829196/125347714-a240f200-e331-11eb-8b25-206efbd8cee6.png)
 
-
-### Funcionalidades
-
-* Verificação do Índice IMC
-* Exibição do resultado com tabela demonstrativa
-* Dica de saúde relacionado ao indice apresentado
